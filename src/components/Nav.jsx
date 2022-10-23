@@ -65,7 +65,7 @@ export default function Nav() {
   };
   return (
     <div
-      className={`supports-backdrop-blur:bg-white/60 sticky top-0 z-40 w-full flex-none  backdrop-blur transition-colors duration-500 dark:border-slate-50/[0.06] dark:bg-transparent md:translate-x-0 lg:z-50 lg:border-b lg:border-slate-900/10`}>
+      className={`supports-backdrop-blur:bg-white/60 sticky top-0 z-40 w-full flex-none  backdrop-blur transition-colors dark:border-slate-50/[0.06] dark:bg-transparent md:translate-x-0 lg:z-50 lg:border-b lg:border-slate-900/10`}>
       <div className="max-w-8xl mx-auto">
         <div className="mx-4 border-b border-slate-900/10 py-4 dark:border-slate-300/10 lg:mx-0 lg:border-0 lg:px-8">
           <div className="relative flex items-center">
@@ -95,7 +95,7 @@ export default function Nav() {
                     <a
                       className="hover:text-sky-500 dark:hover:text-sky-400"
                       href="/showcase">
-                      Hadist
+                      About
                       <span className="ml-2 rounded-full bg-sky-400/10 px-2 py-0.5 text-xs font-medium leading-5 text-sky-600 dark:text-sky-400">
                         New
                       </span>
