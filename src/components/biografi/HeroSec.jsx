@@ -30,7 +30,8 @@ export default function HeroSec() {
                   <a
                     class="hover:text-sky-500 dark:hover:text-sky-400"
                     href="https://www.trashcode.eu.org"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     Blog
                   </a>
                 </li>

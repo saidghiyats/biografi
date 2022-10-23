@@ -48,7 +48,8 @@ export default function Cn1() {
         </p>
         <p className="text-md mt-4 max-w-3xl space-y-6 indent-10">
           Selain tertarik terhadap komputer. Said juga menggemari Mujawwad
-          Al-Qur'an dan kegemaran ini sudh ada saat ia masih duduk dikelas 3 SD.
+          Al-Qur&#39;an dan kegemaran ini sudh ada saat ia masih duduk dikelas 3
+          SD.
         </p>
       </div>
     </>
