@@ -1,6 +1,6 @@
 export default function index() {
   return (
-    <div className=" max-w-[52rem]  text-slate-700 lg:mx-auto">
+    <div className=" max-w-[52rem]  lg:mx-auto">
       <p className="mt-4 space-y-6 text-base">
         Namaku Said Al-Ghiyats, orang biasa memanggilku Said. Aku adalah siswa
         kelas 12 di SMAN 1 Dolok Batu Nanggar. Dunia komputer sangat menarik
