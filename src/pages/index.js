@@ -1,19 +1,47 @@
-import HeroSec from '../components/biografi/HeroSec';
-import Cn1 from '../components/biografi/Cn1';
-
 export default function index() {
   return (
-    <>
-      <div className="flex  flex-wrap justify-center space-y-20 overflow-hidden sm:space-y-32 md:space-y-40">
-        <header className="relative max-w-[520px] ">
-          <HeroSec />
-        </header>
-      </div>
-      <div className="flex  flex-wrap justify-center space-y-20 overflow-hidden sm:space-y-32 md:space-y-40 ">
-        <div className="relative max-w-[520px]">
-          <Cn1 />
-        </div>
-      </div>
-    </>
+    <div className=" max-w-[52rem]  text-slate-700 lg:mx-auto">
+      <p className="mt-4 space-y-6 text-base">
+        Namaku Said Al-Ghiyats, orang biasa memanggilku Said. Aku adalah siswa
+        kelas 12 di SMAN 1 Dolok Batu Nanggar. Dunia komputer sangat menarik
+        bagiku, inilah yang menjadi hobiku hingga saat ini.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Ayahku adalah seorang guru di salah satu sekolah di Serbelawan sementara
+        ibuku bekerja di rumah mengasuh adik-adikku. Kami tinggal di salah satu
+        perumahan swasta di Dolok Merangir.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Sedari kecil, Aku selalu dinasehati oleh ibuku untuk rajin beribadah,
+        menjadi anak yang sholeh, patuh kepada orang tua, dan pekerja keras.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Riwayat pendidikanku dimulai ketika Aku mulai memasuki dunia Sekolah
+        Dasar saat masih berusia 7 tahun kurang. Saat itu Aku masih tinggal
+        dirumah lamaku. Sejak SD, Aku selalu meraih peringkat 3 besar di kelas.
+        Sejak kecil hingga sekarang aku suka membaca Al-Quran, dan aku juga
+        sering mengikuti perlombaan yang rutin dilaksanakan setiap tahunnya.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Pada saat Aku menduduki bangku kelas 6 SD, orangtua ku harus pindah
+        kerja sehingga Kami pun juga harus pindah rumah. Aku memutuskan untuk
+        pindah sekolah, yang berjarak lebih dekat dari rumah baruku.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Setelah lulus, Aku melanjutkan sekolahku di SMPN Dolok Batu Nanggar.
+        Saat menduduki bangku SMP ketertarikanku terhadap komputer dan teknologi
+        mulai muncul. Saat itu Aku sering pergi ke warnet untuk belajar dunia
+        komputer yang menurutku sangat menarik pada saat itu.
+      </p>
+      <p className="mt-4 space-y-6 text-base">
+        Setelah lulus dari SMP, Aku melanjutkan pendidikanku ke tingkat SMAN 1
+        Dolok Batu Nanggar, sekolah saat ini. Aku memutuskan memasuki SMA karena
+        Aku ingin melanjutkan pendidikanku ke tingkat Perguruan Tinggi. Ayahku
+        tentu mendukung keputusan minat dan bakatku tersebut dan mendapatkan
+        rezeki lebih untuk memberikanku satu buah laptop sebagai bahan belajar.
+        Dengan berbekal laptop pemberian ayahku tersebut, membuatku semakin
+        mudah untuk belajar.
+      </p>
+    </div>
   );
 }

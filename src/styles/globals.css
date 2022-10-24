@@ -40,70 +40,9 @@ html {
   background-color: rgb(203 213 225/1);
   border-radius: 0.25rem;
 }
-
-.unknwn {
-  position: fixed;
-  top: 1px;
-  left: 1px;
-  width: 1px;
-  height: 0px;
-  padding: 0px;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0px, 0px, 0px, 0px);
-  white-space: nowrap;
-  border-width: 0px;
-  display: none;
-}
-.token.class-name,
-.token.function,
-.token.selector,
-.token.selector .class,
-.token.selector.class,
-.token.tag {
-  --tw-text-opacity: 1;
-  color: rgb(244 114 182 / var(--tw-text-opacity));
-}
-code,
-kbd,
-samp,
-pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    'Liberation Mono', 'Courier New', monospace;
-  font-size: 1em;
-}
-
-.token.attr-equals,
-.token.punctuation {
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-.token.attr-value,
-.token.class,
-.token.string {
-  --tw-text-opacity: 1;
-  color: rgb(125 211 252 / var(--tw-text-opacity));
-}
-
-.bgimg {
-  -webkit-mask-image: linear-gradient(transparent, black);
-}
-
-.index_beams__yWcJT {
-  background-image: url(/bg-hero.jpg);
-  background-size: 150rem;
-}
-
-.dark .index_beams__yWcJT {
-  background-image: url(/dark-bg-hero.jpg);
-  background-size: 86.125rem;
-}
-.c1-bg1 {
-  background-image: url(/Cn1-ic1.png);
-}
-.c1-bg2 {
-  background-image: url(/Cn1-ic2.png);
-}
-.c1-grid {
-  grid-template-columns: repeat(4, minmax(6rem, 1fr));
+@supports ((-webkit-backdrop-filter: blur(0)) or (backdrop-filter: blur(0))) or
+  (-webkit-backdrop-filter: blur(0)) {
+  .supports-backdrop-blur\:bg-white\/60 {
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
 }
