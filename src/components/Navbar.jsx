@@ -18,10 +18,12 @@ export default function Navbar() {
       <div className="max-w-8xl mx-auto">
         <div className="border-b border-slate-900/10 py-4 px-4 dark:border-slate-300/10 lg:border-0 lg:px-8">
           <div className="relative flex items-center">
-            <div className="mr-3  flex-none overflow-hidden md:w-auto">
-              <span className="sr-only">Biografi</span>
-              <span className="font-mono text-lg font-bold">BIOGRAFI</span>
-            </div>
+            <Link href="/">
+              <a className="mr-3  flex-none overflow-hidden md:w-auto">
+                <span className="sr-only">Biografi</span>
+                <span className="font-mono text-lg font-bold">BIOGRAFI</span>
+              </a>
+            </Link>
 
             <div className="relative ml-auto flex items-center">
               <nav className="text-sm font-semibold leading-6 text-slate-700 dark:text-slate-200">
