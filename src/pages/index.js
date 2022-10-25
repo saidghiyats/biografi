@@ -20,7 +20,7 @@ export default function index() {
         Dasar saat masih berusia 7 tahun kurang. Saat itu Aku masih tinggal
         dirumah lamaku. Sejak SD, Aku selalu meraih peringkat 3 besar di kelas.
         Sejak kecil hingga sekarang aku suka membaca Al-Quran, dan aku juga
-        sering mengikuti perlombaan yang rutin dilaksanakan setiap tahunnya.
+        sering mengikuti perlombaan MTQ tingkat Bridgestone yang rutin dilaksanakan setiap tahunnya.
       </p>
       <p className="mt-4 space-y-6 text-base indent-5">
         Pada saat Aku menduduki bangku kelas 6 SD, orangtua ku harus pindah
