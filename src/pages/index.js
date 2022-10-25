@@ -16,7 +16,7 @@ export default function index() {
         menjadi anak yang sholeh, patuh kepada orang tua, dan pekerja keras.
       </p>
       <p className="mt-4 space-y-6 text-base indent-5">
-        Riwayat pendidikanku dimulai ketika Aku mulai memasuki dunia Sekolah
+        Riwayat pendidikanku dimulai ketika Aku mulai memasuki Sekolah
         Dasar saat masih berusia 7 tahun kurang. Saat itu Aku masih tinggal
         dirumah lamaku. Sejak SD, Aku selalu meraih peringkat 3 besar di kelas.
         Sejak kecil hingga sekarang aku suka membaca Al-Quran, dan aku juga
